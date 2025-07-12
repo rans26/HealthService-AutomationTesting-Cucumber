@@ -8,7 +8,7 @@ public class ChromeManagers {
     public static WebDriver buildDriver() {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--start-maximized");
-        options.addArguments("--headless");
+//        options.addArguments("--headless");
         options.setBinary("C:\\chrome-win64\\chrome.exe");
         return new ChromeDriver(options);
     }

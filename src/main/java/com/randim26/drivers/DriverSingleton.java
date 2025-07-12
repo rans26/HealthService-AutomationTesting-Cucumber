@@ -14,6 +14,10 @@ public class DriverSingleton {
         return driver;
     }
 
+    public static WebDriver getDriver() {
+        return driver;
+    }
+
     public static void quitDriver() {
         if (driver != null) {
             driver.quit();
